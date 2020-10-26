@@ -1,0 +1,395 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url('../Img/Layer-1-copy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 487px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 110px;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+}
+div, p, a, img, form, button{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+i{
+    text-decoration: none;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    color: silver;
+    font-weight: 400;
+    font-size: 118px;
+    margin-top: 40px;
+}
+.menu{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+
+}
+.menu li{
+    margin-right: 43px;
+}
+.menu li a{
+    color: silver;
+    font-size: 22px;
+}
+.menu li a:hover{
+    color: white;
+    font-size: 24px;
+    transition: all 0.5s ease;
+}
+
+.banner{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.pos1{
+    display: flex;
+}
+.banner-text{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.banner-text h1{
+    font-size: 65px;
+    color: white;
+    font-weight: 400;
+}
+.banner-text h2{
+    font-size: 45px;
+    color: azure;
+    font-weight: 200;
+}
+
+.banner-text a{
+    background-color: #12b367;
+    display: block;
+    color: white;
+    width: 140px;
+    font-weight: 200;
+    font-size: 22px;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 22px;
+    box-shadow: 0 0 5px black;
+}
+.banner-text a:hover{
+    background: darkgreen;
+    color: darkgray;
+}
+
+
+
+.footer{
+    background-image: url('../Img/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 245px;
+}
+
+.content-block {
+    background-image: url('../Img/Shape-14.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 1093px;
+    margin: 0 auto;
+    position: relative;
+}
+.image-content{
+    display: flex;
+}
+.cub{
+    margin-top: 26px;
+    margin-left: 129px;
+}
+.lub{
+    margin-top: 26px;
+    margin-left: 50px;
+}
+.text-block{
+    display: flex;
+    margin-top: 24px;
+}
+.first-ch{
+    margin-left: 52px;
+    color: silver;
+    font-size: 26px;
+}
+.no-first1{
+    margin-left: 124px;
+    color: silver;
+    font-size: 26px;
+}
+.no-first2{
+    margin-left: 130px;
+    color: silver;
+    font-size: 26px;
+}
+.no-first3{
+    margin-left: 140px;
+    color: silver;
+    font-size: 26px;
+}
+
+.text-cec{
+    display: flex;
+}
+.text-cec h5{
+    margin-left: 170px;
+    font-size: 22px;
+    font-weight: 200;
+    color: silver;
+}
+.text-cec h6{
+    margin-left: 70px;
+    font-size: 22px;
+    color: silver;
+    font-weight: 200;
+}
+.ipad{
+    margin-top: 50px;
+   margin-left: 150px;
+}
+.text-blabla{
+    font-size: 38px;
+    margin-left: 54px;
+    font-weight: 200;
+}
+.text-loren{
+    margin-top: 34px;
+    font-size: 14px;
+    margin-left: 54px;
+    margin-right:66px;
+    font-weight: 200;
+}
+.bl{
+    margin-top: 34px;
+    font-size: 14px;
+    margin-left: 54px;
+    margin-right:66px;
+    font-weight: 200;
+}
+.info-chu{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+}
+.browser{
+    margin-top: 22px;
+    margin-bottom: 75px;
+}
+.info-browser{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+}
+.Zagalovok{
+    font-weight: 200;
+    font-size: 29px;
+}
+.checks{
+    font-weight: 200;
+    margin-top: 25px;
+    font-size: 13px;
+}
+.fa-check{
+    font-family: FontAwesome, sans-serif;
+    border-radius: 50px;
+    background: orange;
+    color: white;
+    margin-right: 12px;
+}
+.lineChecks{
+    border: none; /* Убираем границу */
+    background-color: silver; /* Цвет линии */
+    height: 1px
+}
+.contack-me{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+}
+#rectangle1{
+    height: 110px;
+    width: 469px;
+    background-color: #e67624;
+    border-radius: 10px;
+}
+#rectangle2{
+    margin-left: 67px;
+    background-color: #01d4f3;
+    height: 110px;
+    width: 471px;
+    border-radius: 10px;
+}
+.contack-me-fon{
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 34px;
+}
+.content-rectangle1 h1{
+    font-weight: 200;
+    font-size: 26px;
+    color: white;
+}
+.content-rectangle2 h1{
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+}
+.content-rectangle1{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.content-rectangle2{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+.content-input{
+    display: flex;
+    margin-top: 24px;
+}
+.Emailadd{
+    width: 265px;
+    height: 25px;
+}
+.Username{
+    width: 155px;
+    height: 25px;
+}
+.password{
+    width: 150px;
+    margin-left: 10px;
+    height: 25px;
+}
+.but1{
+    width: 93px;
+    height: 29px;
+    background-color: #444444;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 200;
+}
+.content-input a:hover{
+    background-color: silver;
+    color: #444444;
+}
+.but2{
+    width: 111px;
+    height: 29px;
+    background-color: #029bb1;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-left: auto;
+    margin-right: 16px;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 200;
+}
+.content-size{
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 0;
+}
+.About-us{
+    margin-left: 40px;
+    font-weight: 200;
+    vertical-align:  middle;
+    margin-top: 32px;
+}
+.About-us h1{
+    font-size: 22px;
+    color: silver;
+    margin-bottom: 14px;
+}
+.About-us a{
+    color: silver;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.About-us a:hover{
+    color: white;
+}
+.About-us2{
+    margin-left: 85px;
+    font-weight: 200;
+    vertical-align:  middle;
+    margin-top: 32px;
+}
+.About-us2 h1{
+    font-size: 22px;
+    color: silver;
+    margin-bottom: 14px;
+}
+.About-us2 a{
+    color: silver;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.About-us2 a:hover{
+    color: white;
+}
+.Testimoanials{
+    margin-top: 32px;
+    margin-left: 77px;
+    width: 323px;
+    color: silver;
+    font-weight: 200;
+    font-size: 13px;
+}
+.Testimoanials h1{
+    font-size: 22px;
+    color:silver;
+    margin-bottom: 14px;
+}
+.ttt{
+    font-weight: 400;
+    font-size: 15px;
+    color: silver;
+}
+.footer-logo{
+    margin-left: 34px;
+    margin-top: 60px;
+}
+.footer-logo1{
+    font-size: 100px;
+    color: silver;
+    font-weight: 200;
+}
+.footer-logo h5{
+    color: silver;
+}
